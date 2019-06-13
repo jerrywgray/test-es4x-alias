@@ -1,0 +1,23 @@
+{
+  "name": "empty",
+  "version": "1.0.0",
+  "description": "This is a ES4X empty project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "es4x-launcher test js:index.test.js",
+    "postinstall": "es4x install",
+    "start": "es4x-launcher"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vertx/unit": "^3.7.1"
+  },
+  "dependencies": {
+    "@vertx/core": "^3.7.1"
+  },
+  "es4xAlias": {
+    "stream": "./app/alias/stream.js"
+  }
+}
