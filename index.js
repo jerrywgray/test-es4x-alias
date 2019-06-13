@@ -2,11 +2,12 @@
 // @ts-check
 
 const stream = require('stream');
+const fs = require('fs');
 
 vertx
   .createHttpServer()
   .requestHandler(function (req) {
-    req.response().end(`Hello!: ${stream}`);
+    req.response().end(`Hello!: ${fs}`);
   })
   .listen(8080);
 

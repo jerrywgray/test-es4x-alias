@@ -18,6 +18,7 @@
     "@vertx/core": "^3.7.1"
   },
   "es4xAlias": {
-    "stream": "./app/alias/stream.js"
+    "stream": "./specialStream.js",
+    "fs": "./alias/fs.js"
   }
 }
